@@ -7,6 +7,9 @@ image: gitpod/workspace-java-17
 
 # Comandos a ejecutar al inicio del proyecto
 tasks:
+  - name: Instala Git Flow
+    command: sudo apt-get install git-flow
+
   - name: Instala Spring Boot 
     command: sdk install springboot 
 
